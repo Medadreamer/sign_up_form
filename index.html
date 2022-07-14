@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side_img">
+            <div class="logo">
+                <img src="images/odin-lined.png" alt="the odin project logo" id="odin_logo">
+                <p class="odin">odin</p>
+            </div>
+            <div class="logo_container"></div>
+            <div class="credit">
+                <p>Photo by <span class="credit_link">Halie West</span> on <span class="credit_link">Unsplash</span></p>
+            </div>
+        </div>
+        <div class="page_content">
+            <div class="disclaimer">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+                <p>You <span class="italic">know</span> want to.</p>
+            </div>
+            <div class="form_card">
+                <form>   
+                    <p class="form_title">Let's do this!</p>                     
+                    <div class="sign_up_form">
+    
+                        <div class="input_container">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" required>
+                        </div>
+                            
+                        <div class="input_container">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" required>    
+                        </div>
+    
+                        <div class="input_container">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>    
+                        </div>
+    
+                        <div class="input_container">
+                            <label for="phone_number">Phone_number</label>
+                            <input type="tel" name="" id="phone_number">    
+                        </div>
+    
+                        <div class="input_container">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>  
+                            <span id="warning"></span>
+                        </div>
+                        
+                        <div class="input_container">
+                            <label for="password_confirmation">Confirm Password</label>
+                            <input type="password" name="password_confirmation" id="password_confirmation" required>    
+                        </div>
+                    </div>
+                    <button type="submit" id="form_button">Create Account</button>
+                </form>
+            </div>
+            
+            <div class="existing_users">
+                <p>Already have an account? <span class="link">Log in</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
